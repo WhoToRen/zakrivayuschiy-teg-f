@@ -137,7 +137,7 @@
   display: flex;
   flex-direction: column;
   width: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
-  outline: 3px solid var(--section-border-color);
+  outline: 2px solid var(--section-border-color);
   margin-block-end: 54px;
   background-color: var(--section-background-color);
 }
@@ -151,6 +151,7 @@
   color: var(--font-color);
   font-weight: var(--main-font-family-title-weight);
   margin-block-start: 5px;
+  padding-left: 5px;
 }
 
 .sprint_description {

@@ -16,7 +16,7 @@
   --accent-color: #000;
   --section-border-color: #000;
   --background-color: #fff;
-  --hover-opacity-color: rgb(0,0,0, 0.6);
+  --hover-opacity-color: rgb(0, 0, 0, 0.6);
   --section-background-color: #fff;
   --button-border-color: #000;
   --background-gradient: repeating-linear-gradient(
@@ -26,10 +26,10 @@
     ),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, #d3d3d300 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-    --heart-main-body-color: #FF0000;
-    --heart-hover-color: #000;
-    --mix-mode-color: #fff;
-    --label-stroke-color: #fff;
+  --heart-main-body-color: #ff0000;
+  --heart-hover-color: #000;
+  --mix-mode-color: #fff;
+  --label-stroke-color: #fff;
 }
 
 :root.theme-dark {
@@ -42,7 +42,7 @@
   --accent-font-family: "PressStart2P";
   --accent-font-family-normal-weight: 400;
   --section-border-color: #00cc14;
-  --hover-opacity-color: rgb(0,204,20, 0.6);
+  --hover-opacity-color: rgb(0, 204, 20, 0.6);
   --background-color: #000;
   --section-background-color: #000;
   --button-border-color: #00cc14;
@@ -53,10 +53,10 @@
     ),
     repeating-linear-gradient(to bottom, #000 0 2px, #00000000 2px 4px),
     linear-gradient(to bottom, #007f0c 0.01%, #004306);
-    --heart-main-body-color: #FF0000;
-    --heart-hover-color: #00cc14;
-    --mix-mode-color: #00cc14;
-    --label-stroke-color: #000;
+  --heart-main-body-color: #ff0000;
+  --heart-hover-color: #00cc14;
+  --mix-mode-color: #00cc14;
+  --label-stroke-color: #000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,7 +70,7 @@
     --accent-font-family: "PressStart2P";
     --accent-font-family-normal-weight: 400;
     --section-border-color: #00cc14;
-    --hover-opacity-color: rgb(0,204,20, 0.6);
+    --hover-opacity-color: rgb(0, 204, 20, 0.6);
     --background-color: #000;
     --section-background-color: #000;
     --button-border-color: #00cc14;
@@ -81,9 +81,9 @@
       ),
       repeating-linear-gradient(to bottom, #000 2px, #00000000 2px 4px),
       linear-gradient(to bottom, #007f0c 0.01%, #004306);
-      --heart-main-body-color: #FF0000;
-      --heart-hover-color: #00cc14;
-      --mix-mode-color: #00cc14;
-      --label-stroke-color: #000;
+    --heart-main-body-color: #ff0000;
+    --heart-hover-color: #00cc14;
+    --mix-mode-color: #00cc14;
+    --label-stroke-color: #000;
   }
 }

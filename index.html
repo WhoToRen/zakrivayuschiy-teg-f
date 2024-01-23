@@ -561,34 +561,37 @@
       </section>
     </main>
     <footer class="footer">
-        <button type="button" 
-        onclick="window['dialog-id'].showModal()" 
+      <button
+        type="button"
+        onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
-        class="save_button button">
+        class="save_button button"
+      >
         <svg class="floppy_svg" width="21px" height="21px" viewBox="0 0 21 21">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
-        <span class="save_button_text">Сохранить на память</span> 
-    </button>
-     </footer>
+        <span class="save_button_text">Сохранить на память</span>
+      </button>
+    </footer>
     <dialog id="dialog-id" class="save_dialog">
       <div class="dialog_description">
-      <svg class="floopy_dialog" viewBox="0 0 21 21">
-        <use href="./svg/floppy.svg#floppy"></use>
-      </svg>
-      <p class="dialog_text">Вставьте дискету, чтобы продолжить</p>
-    </div>
+        <svg class="floopy_dialog" viewBox="0 0 21 21">
+          <use href="./svg/floppy.svg#floppy"></use>
+        </svg>
+        <p class="dialog_text">Вставьте дискету, чтобы продолжить</p>
+      </div>
       <form method="dialog" class="close_button">
         <button
           class="close"
           type="submit"
           onclick="window['dialog-id'].close();"
-          aria-controls="dialog-id">
+          aria-controls="dialog-id"
+        >
           ок
         </button>
       </form>
     </dialog>
- 
+
     <script src="./scripts/like.js"></script>
   </body>
 </html>
