@@ -75,7 +75,7 @@
 }
 
 .theme-menu__button:disabled::before {
-  content: '▶';
+  content: "▶";
   position: absolute;
   animation: arrow 0.5s ease-in-out infinite alternate;
   margin-left: -20px;
@@ -97,7 +97,7 @@
 }
 
 .theme-menu__button::after {
-  content: '';
+  content: "";
   scale: 0;
   height: 2px;
   width: 100%;
@@ -191,10 +191,9 @@
   font-family: var(--accent-font-family);
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  text-shadow: 1px 0 1px var(--label-stroke-color), 
-  0 1px 1px (--label-stroke-color), 
-  -1px 0 1px (--label-stroke-color), 
-  0 -1px 1px (--label-stroke-color)#000;
+  text-shadow: 1px 0 1px var(--label-stroke-color),
+    0 1px 1px (--label-stroke-color), -1px 0 1px (--label-stroke-color),
+    0 -1px 1px (--label-stroke-color) #000;
 }
 
 @supports ((-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff)) {
@@ -248,7 +247,7 @@
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   left: 0;
@@ -295,7 +294,7 @@
 }
 
 .img_plans {
-  filter: opacity(80%);
+  filter: opacity(80%) sepia(10%);
 }
 
 .img_people {
@@ -402,9 +401,9 @@
 
   .description {
     font-size: clamp(0rem, 0rem + 3.7333vw, 0.875rem);
- }
+  }
 
-  .header, 
+  .header,
   .section_of_sprint {
     width: clamp(0.625rem, 96.267vw + 0.625rem, 23.188rem);
   }
