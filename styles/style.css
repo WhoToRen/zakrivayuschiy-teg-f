@@ -36,19 +36,21 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  padding: 136px 120.5px 25px 120.5px;
+  padding: clamp(7.5rem, 1.502vw + 7.148rem, 8.5rem) 120.5px 25px 120.5px;
   margin-block-end: 104px;
   background-color: var(--background-color);
   outline: 2px solid var(--button-border-color);
 }
 
 .theme-menu__list {
-  margin-inline-start: 14.5px;
-  gap: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline-start: 20px;
 }
 
-.theme-menu__item:not(:last-child) {
-  margin-block-end: 14px;
+.theme-menu__item:last-child {
+  margin-block-end: 25px;
 }
 
 .theme-menu__button {
@@ -126,7 +128,7 @@
   white-space: nowrap;
   color: var(--font-color);
   text-transform: uppercase;
-  margin-block-end: 25px;
+  margin-block-end: clamp(1.563rem, 0vw + 1.563rem, 1.563rem);
   justify-self: center;
 }
 
@@ -142,13 +144,11 @@
 .section_title {
   display: flex;
   align-content: end;
-  height: clamp(1.563rem, 0vw + 1.563rem, 1.563rem);
   font-family: var(--main-font-family);
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   color: var(--font-color);
   font-variation-settings: 'wght' var(--main-font-family-title-weight);
-  margin-block-start: 5px;
-  padding-left: 5px;
+  padding: 5px 10px;
 }
 
 .sprint_description {
@@ -329,6 +329,10 @@
 }
 
 .save_button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
   background-color: var(--background-color);
   padding: 13px;
   border: 2px solid var(--accent-color);
@@ -389,7 +393,7 @@
   padding: 9px 17px;
 }
 
-@media (width <= 375px) {
+@media (width <= 376px) {
   .title {
     font-size: clamp(0rem, 0rem + 13.0667vw, 3.0625rem);
   }
@@ -407,6 +411,10 @@
     padding: 120px 14px 25px 14px;
   }
 
+  .section_title {
+    white-space: wrap;
+  }
+
   .sprint_description {
     font-size: clamp(0rem, 0rem + 4.8vw, 1.125rem);
   }
@@ -420,9 +428,29 @@
   .footer {
     padding: 0 34px 102px 35px;
   }
+  
+  .save_button {
+    inline-size: clamp(0rem, 81.6vw + 0rem, 19.125rem);
+    block-size: clamp(0rem, 21.333vw + 0rem, 5rem);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
 
   .save_dialog {
     inline-size: clamp(0rem, 90.933vw + 0rem, 21.313rem);
     padding: 32px 42px;
   }
+
+  .save_dialog:has[opened] {
+    padding: 32px 42px;
+    inline-size: 341px;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+
 }
