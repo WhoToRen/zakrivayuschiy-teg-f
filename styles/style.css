@@ -114,7 +114,7 @@
 .title {
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   color: var(--font-color);
-  font-weight: var(--main-font-family-normal-weight);
+  font-variation-settings: 'wght' var(--main-font-family-normal-weight);
   text-transform: uppercase;
   margin-block-end: 20px;
   align-self: center;
@@ -122,7 +122,7 @@
 
 .description {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-  font-weight: var(--main-font-family-normal-weight);
+  font-variation-settings: 'wght' var(--main-font-family-normal-weight);
   white-space: nowrap;
   color: var(--font-color);
   text-transform: uppercase;
@@ -146,7 +146,7 @@
   font-family: var(--main-font-family);
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   color: var(--font-color);
-  font-weight: var(--main-font-family-title-weight);
+  font-variation-settings: 'wght' var(--main-font-family-title-weight);
   margin-block-start: 5px;
   padding-left: 5px;
 }
@@ -155,7 +155,7 @@
   font-family: var(--main-font-family);
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   color: var(--font-color);
-  font-weight: var(--main-font-family-normal-weight);
+  font-variation-settings: 'wght' var(--main-font-family-normal-weight);
 }
 
 .section_description {
@@ -230,7 +230,7 @@
   z-index: 1;
   font-family: var(--accent-font-family);
   color: var(--mix-mode-color);
-  font-weight: var(--main-font-family-normal-weight);
+  font-variation-settings: 'wght' var(--main-font-family-normal-weight);
   font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
   line-height: 90%;
   mix-blend-mode: difference;
@@ -322,7 +322,7 @@
   z-index: 1;
   font-family: var(--accent-font-family);
   color: var(--mix-mode-color);
-  font-weight: var(--main-font-family-normal-weight);
+  font-variation-settings: 'wght' var(--main-font-family-normal-weight);
   font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
   line-height: 90%;
   mix-blend-mode: difference;
