@@ -73,6 +73,16 @@
   transform-origin: center;
 }
 
+@keyframes arrow {
+  from {
+    margin-left: -24px;
+  }
+
+  to {
+    margin-left: -20px;
+  }
+}
+
 @keyframes heart-like {
   from {
     transform: scale(1);

@@ -14,10 +14,10 @@
   --header-background-color: yellow;
   --font-color: #000;
   --accent-color: #000;
-  --section-border-color: #000;
+  --article-border-color: #000;
   --background-color: #fff;
   --hover-opacity-color: rgb(0, 0, 0, 0.6);
-  --section-background-color: #fff;
+  --article-background-color: #fff;
   --button-border-color: #000;
   --background-gradient: repeating-linear-gradient(
       to left,
@@ -41,10 +41,10 @@
   --main-font-family-title-weight: 785;
   --accent-font-family: "PressStart2P";
   --accent-font-family-normal-weight: 400;
-  --section-border-color: #00cc14;
+  --article-border-color: #00cc14;
   --hover-opacity-color: rgb(0, 204, 20, 0.6);
   --background-color: #000;
-  --section-background-color: #000;
+  --article-background-color: #000;
   --button-border-color: #00cc14;
   --background-gradient: repeating-linear-gradient(
       to left,
@@ -69,10 +69,10 @@
     --main-font-family-title-weight: 785;
     --accent-font-family: "PressStart2P";
     --accent-font-family-normal-weight: 400;
-    --section-border-color: #00cc14;
+    --article-border-color: #00cc14;
     --hover-opacity-color: rgb(0, 204, 20, 0.6);
     --background-color: #000;
-    --section-background-color: #000;
+    --article-background-color: #000;
     --button-border-color: #00cc14;
     --background-gradient: repeating-linear-gradient(
         to left,

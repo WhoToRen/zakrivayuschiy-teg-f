@@ -7,9 +7,9 @@
   --accent-font-family-normal-weight: 400;
   --font-color: #000;
   --accent-color: #000;
-  --section-border-color: #000;
+  --article-border-color: #000;
   --background-color: #fff;
-  --section-background-color: #fff;
+  --article-background-color: #fff;
   --hover-opacity-color: rgb(0, 0, 0, 0.6);
   --button-border-color: #000;
   --background-gradient: repeating-linear-gradient(
